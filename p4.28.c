@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void)
+int main()
 {
     int paycode;
     double salary, hours, rate, sales, pieces, perPiece, pay;
