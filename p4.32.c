@@ -6,7 +6,7 @@ int main()
 
     do {
         printf("Enter an odd number of rows (1-19): ");
-        scanf("%d", &rows);
+        scanf_s("%d", &rows);
     } while (rows < 1 || rows > 19 || rows % 2 == 0);
 
     int mid = rows / 2;  
